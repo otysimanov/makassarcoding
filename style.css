@@ -1,0 +1,68 @@
+section#navigasi {
+   box-shadow:  0 1px 5px rgba(0,0,0,.15);
+}
+
+.nav-link {
+    
+    font-weight: bold;
+    color: #00869A !important;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #EA9B00 !important;
+}
+
+#header {
+    margin: 25px 0px;
+    
+}
+
+.gambar-header {
+    border-radius: 50px;
+    width: 90%;
+    
+    
+}
+
+.colom-header1 {
+    margin-bottom: auto;
+    margin-top: auto;
+    
+}
+
+#mengapa-belajar {
+    background-color: #D4ECFD;
+    padding: 30px 0px;
+}
+
+
+
+
+
+
+
+
+/* tampilan handphone */
+@media (max-width: 575.98px) {
+
+    .row-header {
+        display: flex;
+    }
+    .colom-header1 {
+        order: 2;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .colom-header2 {
+        order: 1;
+        justify-content: center;
+    }
+
+    .nav-link {
+        
+    }
+
+  
+
+}
