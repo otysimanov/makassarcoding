@@ -36,6 +36,12 @@ section#navigasi {
     padding: 30px 0px;
 }
 
+.font-program {
+    color: #006396;
+    font-size: 50px;
+    
+}
+
 
 
 
@@ -57,10 +63,6 @@ section#navigasi {
     .colom-header2 {
         order: 1;
         justify-content: center;
-    }
-
-    .nav-link {
-        
     }
 
   
